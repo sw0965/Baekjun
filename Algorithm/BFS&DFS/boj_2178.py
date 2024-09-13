@@ -27,7 +27,7 @@ chk = [[False] * m for _ in range(n)]
 dy = [0, 1, 0, -1]
 dx = [1, 0, -1, 0]
 distance = 0
-distance_list = []
+
 
 def bfs(y, x):
     global distance
